@@ -92,7 +92,7 @@ const Dashboard = () => {
         <>
             <h1 style={{ textAlign: 'center' }}>Encriptador para ONE Latam 🔎</h1>
             <Row justify='space-between'>
-                <Col xs={6} md={6}>
+                <Col xs={12} md={6}>
                     <form onSubmit={(e) => handleEncrypt(e)}>
                         <TextArea autoSize={{
                             minRows: 4,
@@ -108,7 +108,7 @@ const Dashboard = () => {
                     <hr />
                     {encryptedValue != '' && <b>Texto encriptado: {encryptedValue}</b>}
                 </Col>
-                <Col xs={6} md={6}>
+                <Col xs={12} md={6}>
                     <form onSubmit={(e) => handleDecrypt(e)}>
                         <TextArea autoSize={{
                             minRows: 4,
