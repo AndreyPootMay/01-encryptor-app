@@ -2,7 +2,7 @@
   "name": "encryptor-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://andreypootmay.github.io" ,
+  "homepage": "https://andreypootmay.github.io/01-encryptor-app" ,
 "type": "module",
   "scripts": {
     "dev": "vite",
